@@ -12,4 +12,17 @@ let imageDeafault =
 
 const srcImage = srcImageFromApi || imageDeafault;
 
-console.log(srcImage);
+// console.log(srcImage);
+
+let a = 0;
+let b = "Hello";
+let c;
+a ||= "Fallback";
+b &&= "Updated";
+c ??= "Default";
+
+let d = a || "Fallback";
+console.log("a:", a); // 'Fallback'
+console.log("b:", b); // 'Updated'
+console.log("c:", c); // 'Default'
+console.log("d:", d); // 'Fallback'
