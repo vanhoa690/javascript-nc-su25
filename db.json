@@ -1,0 +1,6 @@
+{
+  "products": [
+    { "id": 1, "name": "Milk Tea", "price": 29000 },
+    { "id": 2, "name": "Green Tea", "price": 25000 }
+  ]
+}
