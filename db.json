@@ -1,6 +1,30 @@
 {
   "products": [
-    { "id": 1, "name": "Milk Tea", "price": 29000 },
-    { "id": 2, "name": "Green Tea", "price": 25000 }
-  ]
+    {
+      "id": 1,
+      "name": "Milk Tea",
+      "price": 29000
+    },
+    {
+      "id": 2,
+      "name": "Green Tea",
+      "price": 25000
+    },
+    {
+      "id": 3,
+      "name": "Green Tea 3",
+      "price": 25000
+    },
+    {
+      "name": "12321",
+      "price": 123123,
+      "id": 4
+    },
+    {
+      "name": "23123",
+      "price": 123123,
+      "id": 5
+    }
+  ],
+  "users": []
 }

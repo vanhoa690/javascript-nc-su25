@@ -3,6 +3,9 @@
     "json-server": "0.17"
   },
   "scripts": {
-    "server": "json-server --watch db.json --port 3001"
+    "server": "json-server db.json -m ./node_modules/json-server-auth --port 3001"
+  },
+  "dependencies": {
+    "json-server-auth": "^2.1.0"
   }
 }
